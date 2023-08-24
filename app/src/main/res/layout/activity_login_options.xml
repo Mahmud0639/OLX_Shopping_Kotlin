@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginOptionsActivity">
+
+    <ImageButton
+        android:id="@+id/closeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:src="@drawable/ic_close" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sun_way"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/continueWithGoogleBtn"
+                android:layout_width="match_parent"
+                app:icon="@drawable/google"
+               android:layout_height="wrap_content"
+                android:minHeight="@dimen/button_height"
+                android:text="Continue with google"
+
+                app:cornerRadius="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/continueWithPhone"
+                android:layout_width="match_parent"
+                app:icon="@drawable/facebook"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/button_height"
+                android:text="Continue with phone"
+                app:cornerRadius="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/continueWithEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/button_height"
+                app:icon="@drawable/twitter"
+                android:text="Continue with email"
+                app:cornerRadius="8dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "254059618485",
+    "project_id": "olx-shopping-6c450",
+    "storage_bucket": "olx-shopping-6c450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254059618485:android:981413c82ac9c9749edefc",
+        "android_client_info": {
+          "package_name": "com.manuni.olx_shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254059618485-ifi0pib4uavueaunl6gnvc29plp6q44g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Byw1Mxso5hM4kJhYUOqKC3vf9ldoTnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254059618485-ifi0pib4uavueaunl6gnvc29plp6q44g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
